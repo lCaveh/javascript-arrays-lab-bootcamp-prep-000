@@ -8,8 +8,8 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 function removeLastKitten() {
-  kittens.splice(0,0,name);
+  kittens.slice(0, kittens.length-1);
 }
-function destructivelyPrependKitten(name) {
-  kittens.splice(0,0,name);
+function removeFirstKitten() {
+  kittens.splice(0);
 }
