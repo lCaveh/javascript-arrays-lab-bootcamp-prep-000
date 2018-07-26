@@ -10,3 +10,6 @@ function destructivelyRemoveFirstKitten() {
 function destructivelyPrependKitten(name) {
   kittens.splice(0,0,name);
 }
+function destructivelyPrependKitten(name) {
+  kittens.splice(0,0,name);
+}
