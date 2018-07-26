@@ -8,5 +8,5 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 function destructivelyPrependKitten(name) {
-  splice
+  kittens.splice(0,0,name);
 }
